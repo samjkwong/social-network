@@ -1,0 +1,51 @@
+{
+  "name": "socialnetwork",
+  "version": "1.0.0",
+  "description": "Social Network using Mongo, Express, React, Node",
+  "main": "webServer.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack -d",
+    "build:w": "node_modules/.bin/webpack -d --watch",
+    "lint": "node_modules/.bin/eslint webServer.js loadDatabase.js *.jsx components/*/*.jsx lib/*.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "file-loader": "^3.0.1",
+    "materialize": "^1.0.0",
+    "materialize-css": "^1.0.0",
+    "mongoose": "^4.3.4",
+    "multer": "^1.4.1",
+    "nodemon": "^1.18.10",
+    "prismjs": "^1.15.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-router-hash-link": "^1.2.1",
+    "url-loader": "^1.1.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^3.1.2"
+  }
+}

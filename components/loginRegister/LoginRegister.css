@@ -1,0 +1,66 @@
+#project-loginregister-loginform {
+  margin-left: auto;
+  margin-right: 30px;
+  margin-top: 10px;
+  padding: 20px;
+  display: flex;
+  width: 400px;
+  background: #f7f7f7;
+  border-radius: 15px;
+}
+
+#project-loginregister-registerform {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  align-items: center;
+  width: 400px;
+  background: #f7f7f7;
+  border-radius: 15px;
+}
+
+#project-loginregister-registermessage {
+  margin: 5px;
+  font-size: 12px;
+  color: red;
+}
+
+#project-loginregister-createaccount {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#project-loginregister-error {
+  margin-left: auto;
+  margin-right: 60px;
+  margin-top: 10px;
+  display: flex;
+  width: 250px;
+  font-size: 10px;
+  color: red;
+}
+
+.project-loginregister-input {
+/*  display: inline;
+  margin-left: 30px;*/
+}
+
+#project-loginregister-loginsubmit {
+  display: inline;
+  font-size: 10px;
+  height: 17px;
+  margin-top: 13px;
+  margin-left: 20px;
+}
+
+#project-loginregister-registersubmit {
+  font-size: 30px;
+  margin-top: 20px;
+  padding: 9px;
+}
+
+.project-loginregister-title {
+  font-size: 12px;
+  margin-top: 12px;
+  margin-right: 10px;
+}

@@ -1,0 +1,10 @@
+.project-userlist-thumbnail {
+  max-width: 40px;
+  height: auto;
+  margin-left: 10px;
+}
+
+.project-userlist-title {
+  font-size: 25px;
+  font-style: bold;
+}

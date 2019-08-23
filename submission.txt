@@ -1,0 +1,49 @@
+Project #8 - Submission form
+
+Please fill in this form and submit it with your project #8.
+
+Enter no more than 5 user stories that you did for the assignment that you would like to be
+graded on. For each story include the following information:
+
+Story number and name: 1 - Extend user profile detail with usage
+Story points: 3
+Brief description to see the story in action: The user details page of each user now contains the both the user's most recently uploaded photo with a thumbnail link and the user's photo with most comments with a thumbnail link (with a count of comments). Both of these photos have their upload date displayed.
+
+Story number and name: 4 - Activity feed
+Story points: 4
+Brief description to see the story in action: Now a user can see a list of activities that happened on the photo app. Activities include photo uploads, comments added, user registration, user login, and user logout. Included in the activity feed view is a refresh button to refresh the view, as required in the spec. Each activity has its own additional information, such as thumbnail link for photo-related activities.
+
+Story number and name: 5 - Deleting Comments, Photos, and Users
+Story points: 4
+Brief description to see the story in action: A user can now delete any of their comments, photos, and their account itself. Next to each deletable item for the user is a [delete] button. When they click to delete their account, there is a final warning prompt. If they confirm, then all comments, photos, and activities related to the user account are deleted along with the user account itself. The user is then logged out, and does not exist in the database anymore.
+
+Story number and name: 8 - Sidebar list marks users with new activity.
+Story points: 3
+Brief description to see the story in action: The user list now also contains the last activity each user did, including posting a photo (with thumbnail link), adding a comment, registering, logging in, and logging out. The user list updates automatically when a new activity occurs for any user. As a personal touch, I made it so that the user has "no recent activity" after they delete an item.
+
+
+Total Story Points: 14
+
+Marketing Video URL (ensure permissions are set to public viewing): https://youtu.be/aSrwMbdDSlU
+
+Is it OK with you if we post your Marketing Video URL on the class discussion forum? Yes
+
+Any special instructions for Grading (should be easy to run app from new machine): None
+
+
+************************************ Example *******************
+* As an example for if you did only story 5 your file would look like:
+* 
+* Story number and name:  5 - Activity Feed
+* Story points:  4
+* Brief description to see the story in action:
+* Push the button labeled Activity on the toolbar and view the 10 most recent activities of the
+* current user.
+* 
+* Total Story Points: 4
+* 
+* Marketing Video URL (ensure permissions are set to public viewing): http://www.youtube.com ---
+* 
+* Is it OK with you if we post your Marketing Video URL on the class discussion forum? Yes
+* 
+* Instructions for Grading (should be easy to run app from new machine): None

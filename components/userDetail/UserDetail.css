@@ -1,0 +1,10 @@
+.project-detail-username {
+  font-size: 35px;
+  padding-left: 20px;
+}
+
+.project-detail-thumbnail {
+  max-width: 200px;
+  height: auto;
+  margin-left: 30px;
+}
