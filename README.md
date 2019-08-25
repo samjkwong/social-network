@@ -1,24 +1,36 @@
 # Social Network
 
+A simple photo-sharing social network app. Both front end and back end developed using Mongo, Express, React and Node.
+
 ## Functionality
 
 ### User Account Registration
+
+Start by creating an account! User account information is stored in your local mongo database. You can only see others once you log in.
 
 ![Registration](./demo/registration.gif)
 
 ### Uploading Photos
 
+Post your favorite photos. Your profile keeps track of your most recent upload and your most popular upload.
+
 ![Upload](./demo/upload.gif)
 
 ### Commenting On Photos
 
+Leave comments on your friends photos. Most recent activity is found on the activity feed.
+
 ![Commenting](./demo/commenting.gif)
 
-### Deleting Your Comments or Comments On Your Photos
+### Deleting Comments
+
+If you uploaded the photo, you can delete anyone's comments. If it is your friend's photo, you can only delete your comments.
 
 ![Delete Comment](./demo/delete_comment.gif)
 
 ### Deleting Your User Account
+
+Delete your account, along with everything you ever uploaded or commented.
 
 ![Delete Account](./demo/delete_account.gif)
 
@@ -33,6 +45,7 @@ Homebrew installation:
 Node, MongoDB and Express installation:
 
     brew install node
+    npm install
     brew install mongodb
     sudo mkdir -p /data/db
     sudo chown -R `id -un` /data/db
