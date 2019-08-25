@@ -22,9 +22,6 @@ var SchemaInfo = require('./schema/schemaInfo.js');
 var express = require('express');
 var app = express();
 
-// XXX - Your submission should work without this line
-// var projectModels = require('./modelData/photoApp.js').projectModels;
-
 mongoose.connect('mongodb://localhost/socialnetwork', { useMongoClient: true });
 
 var session = require('express-session');
