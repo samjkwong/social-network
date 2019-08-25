@@ -64,6 +64,13 @@ Install Mongo from https://www.mongodb.org/downloads#production.
 
 Make sure the directory `C:\data\db` exists and is writable, in order to use Mongo.
 
+Now install the following:
+
+    npm install
+    npm install --save express-session
+    npm install --save body-parser
+    npm install --save multer
+
 ### Run
 
 Run each of these on a new tab in the same directory. Note that `node loadDatabase.js` will completely clear the database each time it is run, because I have initialized no fake starting accounts, so be careful when running this.
