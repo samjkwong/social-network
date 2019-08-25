@@ -56,6 +56,14 @@ Additional dependencies:
     npm install --save body-parser
     npm install --save multer
 
+### Dependencies on Windows
+
+Install Node from https://nodejs.org/en/download.
+
+Install Mongo from https://www.mongodb.org/downloads#production.
+
+Make sure the directory `C:\data\db` exists and is writable, in order to use Mongo.
+
 ### Run
 
 Run each of these on a new tab in the same directory. Note that `node loadDatabase.js` will completely clear the database each time it is run, because I have initialized no fake starting accounts, so be careful when running this.
@@ -64,9 +72,7 @@ Run each of these on a new tab in the same directory. Note that `node loadDataba
     node webServer.js & npm run build:w
     node loadDatabase.js
 
-Finally, to view the web app, go to the URL:
-
-    http://localhost:3000/photo-share.html 
+Finally, to view the web app, go to the URL: http://localhost:3000/photo-share.html.
 
 This loads `photoShare.jsx` from `photo-share.html`.
 
