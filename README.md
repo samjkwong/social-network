@@ -64,6 +64,14 @@ Run each of these on a new tab in the same directory. Note that `node loadDataba
     node webServer.js & npm run build:w
     node loadDatabase.js
 
+Finally, to view the web app, go to the URL:
+
+    http://localhost:3000/photo-share.html 
+
+This loads `photoShare.jsx` from `photo-share.html`.
+
+### Troubleshooting
+
 If you encounter any problems after quitting your terminal without having stopped Mongo or Node properly, try running either of these commands (`pgrep mongo` gives you the process number of the Mongo session still running in the background):
 
     pgrep mongo
