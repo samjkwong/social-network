@@ -19,7 +19,7 @@
     "file-loader": "^3.0.1",
     "materialize": "^1.0.0",
     "materialize-css": "^1.0.0",
-    "mongoose": "^4.3.4",
+    "mongoose": "^5.7.5",
     "multer": "^1.4.1",
     "nodemon": "^1.18.10",
     "prismjs": "^1.15.0",
